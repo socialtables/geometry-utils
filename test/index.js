@@ -6,8 +6,6 @@ test('index should export all functions and objects', (t) => {
     t.ok(Index.Arc, "We are exporting arc from index.");
     t.ok(Index.Shape, "We are exporting shape from index.");
     t.ok(Index.Vector, "We are exporting vector from index.");
-    //t.ok(Index.SplitArc, "We are exporting splitarc from index.");
-    t.ok(Index.Utils, "We are exporting utils from index.");
     t.end();
 });
 
