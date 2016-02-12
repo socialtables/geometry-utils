@@ -1,4 +1,4 @@
-// From http://stackoverflow.com/questions/16282330/find-centerpoint-of-polygon-in-javascript
+
 var exports = module.exports = require("./lib/utils");
 exports.Shape = require("./lib/shape");
 exports.Arc = require("./lib/arc");
