@@ -10,7 +10,7 @@
   "scripts": {
     "test": "./node_modules/.bin/tape ./test/**/*.js",
     "changeset": "changeset",
-    "release": "st-changeset release --skipPublish"
+    "release": "st-changeset release"
   },
   "repository": {
     "type": "git",
