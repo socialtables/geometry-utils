@@ -8,7 +8,9 @@
     "test": "test"
   },
   "scripts": {
-    "test": "./node_modules/.bin/tape ./test/**/*.js"
+    "test": "./node_modules/.bin/tape ./test/**/*.js",
+    "changeset": "changeset",
+    "release": "st-changeset release"
   },
   "repository": {
     "type": "git",
@@ -25,6 +27,8 @@
   },
   "homepage": "https://github.com/socialtables/geometry-utils#readme",
   "devDependencies": {
+    "@changesets/cli": "^2.26.1",
+    "@socialtables/changesets": "^1.2.2",
     "tape": "^4.4.0"
   },
   "dependencies": {
